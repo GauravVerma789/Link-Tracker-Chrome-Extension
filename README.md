@@ -1,24 +1,24 @@
-# 🚀 Lead Tracker Chrome Extension
+#  Link Tracker Chrome Extension
 
 A simple and modern Chrome extension to save and manage useful links (leads).
 
-## ✨ Features
+##  Features
 - Save custom input links
 - Save current tab URL
 - Delete all saved leads
 - Clean and modern UI
 - Data stored locally (no backend)
 
-## 🛠 Tech Stack
+##  Tech Stack
 - HTML
 - CSS
 - JavaScript
 - Chrome Extension APIs
 
-## 📸 Preview
+##  Preview
 (Add screenshot here)
 
-## 🚀 How to Use
+##  How to Use
 
 1. Clone the repo
 2. Go to Chrome → Extensions
@@ -26,11 +26,11 @@ A simple and modern Chrome extension to save and manage useful links (leads).
 4. Click "Load Unpacked"
 5. Select this project folder
 
-## 💡 Future Improvements
+##  Future Improvements
 - Delete individual leads
 - Dark mode
 - Search functionality
 - Export leads
 
-## 📌 Author
+##  Author
 Gaurav Verma
