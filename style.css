@@ -1,0 +1,143 @@
+/* Base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #eef2f7, #f8fafc);
+  width: 400px;
+}
+
+/* Container */
+.container {
+  background: white;
+  margin: 16px;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+/* Title */
+.title {
+  margin: 0 0 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Input */
+.input-box {
+  width: 92%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.input-box:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+}
+
+/* Button Row */
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+/* Buttons Base */
+button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Save Button */
+.save-btn {
+  background: linear-gradient(135deg, #4CAF50, #43a047);
+  color: white;
+}
+
+.save-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(76, 175, 80, 0.3);
+}
+
+/* Save Tab */
+.save-tab-btn {
+  background: #edf7ed;
+  color: #2e7d32;
+}
+
+.save-tab-btn:hover {
+  background: #dff3df;
+}
+
+/* Delete Button */
+.Delete-btn {
+  margin-top: 12px;
+  background: #fff0f0;
+  color: #d32f2f;
+}
+
+.Delete-btn:hover {
+  background: #ffdede;
+}
+
+/* List */
+ul {
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+/* List Item */
+li {
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #f1f5f9;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #333;
+  flex: 1;
+  word-break: break-all;
+}
+
+a:hover {
+  color: #4CAF50;
+}
+
+/* Scroll if too many items */
+ul {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Scrollbar */
+ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
